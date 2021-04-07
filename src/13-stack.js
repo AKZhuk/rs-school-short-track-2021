@@ -25,7 +25,7 @@ class Stack {
   }
 
   peek() {
-    let lastItem = this.arr[this.arr.length - 1];
+    const lastItem = this.arr[this.arr.length - 1];
     return lastItem;
   }
 }
